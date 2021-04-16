@@ -6,7 +6,7 @@ import random
 url = 'https://fanyi.youdao.com/translate_o?smartresult=dict&smartresult=rule'
 word = input('输入要翻译的词句：')
 
-random_num = random.randint(0, 10)
+random_num = random.randint(0, 9)
 lts = str(int(time.time()*1000))
 salt = lts + str(random_num)
 data = "fanyideskweb" + word + salt + "Tbh5E8=q6U3EXe+&L[4c@"
